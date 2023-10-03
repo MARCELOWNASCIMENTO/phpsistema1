@@ -1,0 +1,31 @@
+***inicio *** colar no mysql***
+
+create database sistema
+
+use sistema
+
+create table equipamentos (
+	id int primary key,
+	tbl_equipamento_nome varchar(300),
+	tbl_equipamento_descricao varchar(300),
+	tbl_equipamento_informacoes varchar(300)
+);
+
+insert into equipamentos (id, tbl_equipamento_nome, tbl_equipamento_descricao, tbl_equipamento_informacoes) values (1, 'roteador','firewall da rede','instalado em 03102022')
+
+select * from equipamentos
+
+***FIM *** colar no mysql***
+
+
+----OLD---
+
+banco mysql chamado sistema{
+	tabela equipamentos{
+	id int primary key
+	tbl_equipamento_nome varchar300
+	tbl_equipamento_descricao varchar300
+	tbl_equipamento_informacoes varchar300
+	}
+}
+
